@@ -1,0 +1,94 @@
+
+#fhm-about-us{
+    margin-top: 77px;
+}
+#fhm-active{
+    margin-top: -80px;
+}
+#fhm-active h3, .fhm-img-active h3{
+    margin-bottom: 50px;
+}
+
+
+#fhm-about-us h3{
+    margin-bottom: 40px;
+}
+
+#fhm-about-us p{
+    margin-bottom: 30px;
+}
+
+#fhm-about-us .col-lg-6.col-12:last-child{
+    padding-left: 97px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#fhm-why-choose .lannie-main {
+    justify-content: space-between;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#fhm-why-choose{
+    margin-top: 110px;
+    position: relative;
+}
+
+#fhm-why-choose .lannie-main{
+    position: relative;
+    top: -160px;
+}
+
+#fhm-why-choose .lannie-item-icon{
+    background: #F96706;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+}
+
+#fhm-why-choose .lannie-item{
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 47px 25px 24px 24px;
+}
+
+.lannie-item-title{
+    margin-top: 22px;
+    margin-bottom: 6px;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+.about-us{
+    border-radius: 0 158px 0 0;
+    max-height: 605px;
+}
+
+@media (max-width: 768px){
+    #fhm-why-choose .lannie-main {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #fhm-why-choose .lannie-main {
+        position: relative;
+        top: -80px;
+        margin-bottom: 80px;
+    }
+
+    #fhm-about-us h3 {
+        margin-top: 40px;
+    }
+}
+@media only screen and (max-width: 576px){
+    .container{
+        padding: 0;
+    }
+}

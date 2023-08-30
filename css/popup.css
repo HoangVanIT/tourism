@@ -1,0 +1,212 @@
+
+.login-trigger {
+    position: relative;
+}
+
+/*Modal*/
+#login .close {
+    color: #fff;
+    transform: scale(1.2)
+}
+
+#login .modal-dialog{
+    margin-top: 70px;
+}
+
+#login .modal-content {
+    border-radius: 10px;
+    background: #FFF;
+    width: 548px;
+    height: 80vh;
+    max-width: 548px;
+    max-height: 676px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#login .modal-body {
+    position: relative;
+    padding: 0 55px;
+    overflow-x: auto;
+
+}
+
+#login button:active {
+    transform: scale(0.95);
+}
+
+
+.btn-login button {
+    color: #000 !important;
+}
+
+input:focus {
+    outline: none;
+}
+
+#login form {
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+#login input {
+    display: flex;
+    padding: 14px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 2px;
+    border: 1px solid #EDEDED;
+    margin-bottom: 12px;
+    width: 100%;
+}
+
+#login .container {
+    position: relative;
+    perspective: 1000px; /* Tạo hiệu ứng 3D */
+}
+
+#login .form-container {
+    transition: all 0.6s ease-in-out;
+}
+
+
+#login .sign-in-container,
+#login .sign-up-container{
+    position: absolute;
+}
+
+#login .sign-in-container {
+    top: 60px;
+    right: 0;
+    width: 100%;
+    transform: translateX(0);
+}
+
+#login .sign-in-container__title span:first-child{
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#login .sign-in-container__title{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-bottom: 36px;
+}
+
+#signIn:focus + .form-container {
+    transform: translateX(100%);
+}
+
+#login .sign-up-container {
+    top: 60px;
+    left: 0;
+    width: 100%;
+    transform: translateX(-150%);
+}
+
+#signUp:focus + .form-container {
+    transform: translateX(0);
+}
+
+#fhm-contact .contact-form .main-form input::placeholder {
+    color: #454545;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#login .btn-res. #login .btn-login {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s ease-in-out;
+}
+
+#login button.btn-login{
+    display: flex;
+    padding: 14px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 2px;
+    background: #F96706;
+    width: 100%;
+    border: none;
+    font-size: 14px;
+}
+
+#login .link-register{
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 23px;
+    text-align: center;
+}
+#login .link-register a{
+    color: #F96706;
+}
+
+#login .login-form-btn-group .form-group{
+    width: 100%;
+    border-radius: 2px;
+    border: 1px solid #E9E9E9;
+    background: #FFF;
+    margin-bottom: 12px;
+}
+
+#login .login-form-btn-group .form-group a{
+    padding: 5px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+
+}
+
+#login .login-form-btn-group .form-group span{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#login .line{
+    margin: 25px 0;
+    display: flex;
+    align-items: center;
+}
+
+#login .line span{
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+#login .group-pass{
+    position: relative;
+}
+
+#login .group-pass svg{
+    position: absolute;
+    right: 18px;
+    top: 20px;
+}
+
+#login .modal-body::-webkit-scrollbar{
+    width: 10px;
+    background-color: #F5F5F5;
+}
+#login .modal-body::-webkit-scrollbar-track
+{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+}
+
+#login .modal-body::-webkit-scrollbar-thumb{
+    background-color: #dddddd;
+    border-radius: 10px;
+}

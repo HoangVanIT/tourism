@@ -1,0 +1,65 @@
+#fhm-news-list, #fhm-tour-list{
+    margin-top: 52px;
+}
+
+#fhm-news-list .blog-news {
+    gap: 60px 20px;
+}
+
+#fhm-tour-list .tour-list{
+    gap: 70px 33px;
+}
+
+#fhm-news-list .tour-item__img img {
+    height: 373px;
+}
+
+.page-navigation .pagination {
+    justify-content: end;
+}
+
+.page-navigation .page-item {
+    padding: 0 10px;
+}
+
+.page-navigation .page-link {
+    position: relative;
+    display: block;
+    padding: 6px 9px;
+    margin-left: 0;
+    color: #727272;
+    font-size: 14px;
+    font-weight: 400;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.06) 0%, rgba(0, 0, 0, 0.06) 100%, #FFF);
+    line-height: normal;
+    border: none;
+    border-radius: 3px;
+    height: 100%;
+}
+
+.page-item.disabled.dots{
+    color: #727272;
+
+}
+
+.page-navigation .page-link:hover {
+    color: #FFFFFF;;
+    background-color: #F96706;
+}
+
+.page-navigation .page-item.active .page-link {
+    color: #FFFFFF;;
+    background-color: #F96706;
+    font-weight: 600;
+}
+
+.page-navigation {
+   margin-top: 70px;
+    margin-bottom: 133px;
+}
+
+@media only screen and (max-width: 576px) {
+    #fhm-news-list .container{
+        padding: 0;
+    }
+}

@@ -1,0 +1,635 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100;200;400;500;600;700;800;900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.slider-item-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.animate-h2 {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+  animation: slide-up-h2 1s forwards;
+}
+
+.animate-a {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+  animation: slide-up-a 1s forwards;
+  animation-delay: 0.3s;
+}
+
+@keyframes slide-up-h2 {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-up-a {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#fhm-slider .slider-content .slider-item {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1600/743;
+}
+#fhm-slider .slider-content .slider-item .slider-item-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 111px;
+}
+#fhm-slider .slider-content .slider-item .slider-item-content {
+  max-width: 600px;
+}
+#fhm-slider .slider-content .slider-item .slider-item-content h5 {
+  color: #fff;
+  font-size: 11px;
+  line-height: 17px;
+  font-weight: 400;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  padding: 4px 12px;
+  border-radius: 500px;
+  background-color: #000;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#fhm-slider .slider-content .slider-item .slider-item-content h2 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 70px;
+  margin-bottom: 27px;
+}
+#fhm-slider .slider-content .slider-item .slider-item-content p {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+#fhm-slider .slider-content .slider-item .slider-item-content a {
+  display: block;
+  padding: 22px 59px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  font-size: 17px;
+  letter-spacing: 3.4px;
+  font-weight: 400;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+}
+#fhm-slider .slider-content .slider-item .slider-item-content a:hover {
+  background-color: transparent;
+}
+
+#fhm-benefits {
+  border-bottom: 1px solid #d9d9d9;
+}
+#fhm-benefits .beneftis-scroll {
+  width: 100%;
+  white-space: nowrap;
+}
+#fhm-benefits .beneftis-scroll .benefits-box {
+  min-width: 299px;
+  padding: 49px 32px;
+}
+#fhm-benefits .beneftis-scroll .benefits-box svg {
+  flex-shrink: 0;
+}
+#fhm-benefits .beneftis-scroll .benefits-box p {
+  white-space: break-spaces;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+#fhm-benefits .beneftis-scroll .benefits-box:not(:first-child) {
+  border-left: solid 1px #d9d9d9;
+}
+#fhm-benefits .beneftis-scroll .benefits-box .vertical-line {
+  border-left: solid 1px #d9d9d9;
+  height: calc(100% - 18px);
+  margin: 0 12px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#fhm-featured-tour {
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+#fhm-featured-tour .featured-tour-list{
+  background-color: #F96706;
+  padding: 44px 55px 51px;
+  border-radius: 10px;
+}
+
+.container-featured-tour{
+  max-width: 1370px;
+  margin: 0 auto;
+}
+
+.title-featured-tour {
+  margin-bottom: 45px;
+}
+
+.title-featured-tour h3 {
+  color: #004178;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.title-featured-tour .title-svg{
+  padding-bottom: 20px;
+}
+
+#fhm-slider .swiper-button-prev, #fhm-slider .swiper-button-next {
+  top: 40%;
+}
+
+#fhm-about-lannie {
+  background: #f9f9f9;
+  padding: 100px 0 108px;
+
+}
+#fhm-about-lannie .lannie-main {
+  justify-content: space-between;
+  margin-top: 72px;
+  gap: 127px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+#fhm-about-lannie .lannie-item .lannie-item-icon {
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.3s ease;
+}
+#fhm-about-lannie .lannie-item .lannie-item-icon img {
+  width: auto;
+  height: auto;
+  max-width: 70%;
+  max-height: 60%;
+}
+#fhm-about-lannie .lannie-item .lannie-item-title {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 28px; /* 127.273% */
+  padding: 30px 0 15px;
+}
+#fhm-about-lannie .lannie-item .lannie-item-des {
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px; /* 175% */
+}
+
+#fhm-daily-tour{
+  margin-top: 97px;
+}
+
+#fhm-combo-tour{
+  margin-top: 78px;
+}
+
+#fhm-combo-tour .main-slider .swiper-container {
+  padding-right: 10px;
+  padding-left: 3px;
+}
+
+  #fhm-package-tour{
+  margin-top: 82px;
+}
+
+#fhm-phuquoc-tour{
+  margin-top: -25px;
+}
+
+#fhm-phuquoc-tour .news-list-item .tour-item__img img{
+  max-height: 579px;
+}
+
+#fhm-blog, #fhm-img{
+  margin-top: 79px;
+}
+
+#fhm-blog .blog-news-item .tour-item__img img, #fhm-blog .blog-news-item{
+  max-height: 373px;
+}
+
+#fhm-img .galleryGrid {
+  grid-template-columns: 0.3333333333333333fr 0.3333333333333333fr 0.3333333333333333fr;
+  grid-gap: 20px;
+}
+
+#fhm-img .galleryGrid__item img {
+  border-radius: 10px;
+}
+
+#fhm-img .galleryGrid__item:first-child img {
+  height: 519px;
+}
+
+#fhm-img .galleryGrid__item:not(:first-child) img {
+  height: 248px;
+}
+
+#fhm-partner, #fhm-design-tour {
+  margin-top: 97px;
+}
+#fhm-partner .partner-container {
+  padding-top: 61px;
+}
+#fhm-partner .partner-item{
+  height: 120px;
+  width: 201px;
+  border-radius: 10px;
+  border: 1px solid #DBDBDB;
+  background: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+#fhm-partner .partner-container .partner-item svg path {
+  transition: all 0.3s ease;
+}
+#fhm-partner .partner-container .partner-item:hover {
+  background: #F96706;
+}
+#fhm-partner .partner-container .partner-item:hover svg path {
+  fill: #FFF;
+}
+
+#fhm-news {
+  background-color: #000;
+  padding-top: 100px;
+  padding-bottom: 97px;
+}
+#fhm-news .news-container {
+  margin-top: 50px;
+  gap: 47px;
+}
+#fhm-news .product-info .product-name {
+  -webkit-line-clamp: 2;
+}
+
+#fhm-design-tour .title-tour p:last-child{
+  line-height: 24px;
+  margin-top: 9px;
+}
+
+#fhm-design-tour .form-design{
+  padding: 55px 52px;
+  background: #FFFFFF;
+  position: relative;
+  top: -170px;
+  border-radius: 0 10px 0 0;
+}
+
+#fhm-design-tour .banner{
+  width: 100%;
+  --container-tour: 1260px;
+  padding-left: calc(100% - var(--container-tour) - ((100% - var(--container-tour))/2));
+}
+
+#fhm-design-tour .banner img{
+  border-radius: 10px 0 0 0;
+}
+
+#fhm-design-tour .form-design .contact-form{
+  position: relative;
+  padding: 41px 58px 46px;
+  border-radius: 10px;
+  background: #F96706;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+  z-index: 2;
+  max-width: 605px;
+}
+
+#fhm-design-tour .form-design .contact-form::after{
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+}
+
+#fhm-design-tour .form-design .contact-form .contact-submit{
+  width: 100%;
+  display: flex;
+  padding: 20px 49px 20px 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 5px;
+  background: #F96706;
+  color: #FFF;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+}
+
+@media only screen and (max-width: 1366px) {
+  #fhm-benefits .beneftis-scroll {
+    overflow: auto;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  #fhm-slider .slider-content .slider-item .slider-item-container {
+    padding-top: 32px;
+  }
+  #fhm-slider .slider-content .slider-item .slider-item-content h2 {
+    font-size: 36px;
+    line-height: 1.4;
+  }
+  #fhm-featured .featured-main {
+    gap: 10px;
+  }
+  #fhm-partner .partner-container {
+    gap: 30px;
+    padding-bottom: 20px;
+    overflow-x: scroll;
+  }
+  #fhm-promotion .promotion-container {
+    gap: 15px;
+  }
+  #fhm-promotion .promotion-container .promotion-item .promotion-item-content {
+    padding: 20px;
+  }
+  #fhm-promotion .promotion-container .promotion-item .promotion-item-content h4 {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+  #fhm-promotion .promotion-container .promotion-item .promotion-item-content p {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+  #fhm-promotion .promotion-container .promotion-item.promotion-item-center .promotion-item-content {
+    padding-top: 42px;
+  }
+}
+@media (max-width: 991px) {
+  #fhm-slider .slider-content .slider-item .slider-item-content h5 {
+    margin-bottom: 16px;
+  }
+  #fhm-slider .slider-content .slider-item .slider-item-content h2 {
+    font-size: 28px;
+  }
+  #fhm-slider .slider-content .slider-item .slider-item-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+  }
+  #fhm-slider .slider-content .slider-item .slider-item-content a {
+    padding: 14px 32px;
+  }
+  #fhm-category .category-main {
+    flex-direction: column;
+    gap: 16px;
+  }
+  #fhm-category .category-main .category-left,
+  #fhm-category .category-main .category-right {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+  }
+  #fhm-category .category-main .category-left .category-item:first-child,
+  #fhm-category .category-main .category-right .category-item:first-child {
+    margin-bottom: 0;
+  }
+  #fhm-category .category-main .category-center {
+    width: 100%;
+  }
+  #fhm-category .category-main .category-center .category-item .category-item-image {
+    aspect-ratio: 390/196;
+  }
+  #fhm-popularProducts {
+    margin-bottom: 800px;
+  }
+  #fhm-popularProducts .popularProducts-grid {
+    -moz-column-gap: 16px;
+         column-gap: 16px;
+  }
+  #fhm-featured {
+    padding: 70px 0;
+  }
+  #fhm-featured .featured-main {
+    margin-top: 50px;
+    gap: 15px;
+  }
+  #fhm-featured .featured-item .featured-item-icon {
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+  }
+  #fhm-featured .featured-item .featured-item-title {
+    margin-top: 8px;
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  #fhm-testimonials .testimonials-slider {
+    margin-top: 32px;
+  }
+  #fhm-testimonials .testimonials-slider .testimonials-item {
+    padding: 20px 15px;
+  }
+  #fhm-testimonials .testimonials-slider .testimonials-item .testimonials-item-des {
+    height: 100px;
+  }
+  #fhm-partner {
+    margin-bottom: 60px;
+  }
+  #fhm-partner .partner-container {
+    padding-top: 50px;
+  }
+  #fhm-promotion .promotion-header {
+    margin-bottom: 40px;
+  }
+  #fhm-promotion .promotion-container {
+    flex-wrap: wrap;
+  }
+  #fhm-promotion .promotion-container .promotion-item {
+    aspect-ratio: 350/300;
+    flex: initial;
+    width: calc(50% - 10px);
+  }
+  #fhm-news {
+    padding: 50px 0;
+  }
+  #fhm-news .news-container {
+    margin-top: 32px;
+    gap: 15px;
+  }
+  #fhm-dimensions .dimensions-list {
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 576px){
+  #fhm-slider .slider-content .slider-item .slider-item-content h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  #fhm-slider .slider-content .slider-item .slider-item-content a {
+    font-size: 14px;
+    line-height: 1;
+  }
+  #fhm-slider .slider-content .slider-item .slider-item-content p {
+    display: none;
+  }
+
+}
+@media (max-width: 480px) {
+  #fhm-benefits .beneftis-scroll {
+    padding: 32px 0;
+  }
+  #fhm-benefits .beneftis-scroll .benefits-box {
+    min-width: 290px;
+    padding: 0 24px;
+  }
+  #fhm-benefits .beneftis-scroll .benefits-box svg {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+  }
+  #fhm-benefits .beneftis-scroll .benefits-box p {
+    line-height: 1.4;
+  }
+  #fhm-benefits .beneftis-scroll .benefits-box .vertical-line {
+    height: 100%;
+  }
+  #fhm-bestSeller {
+    margin-top: 30px;
+  }
+  #fhm-dimensions {
+    margin-bottom: 88px;
+  }
+  #fhm-dimensions .dimensions-des {
+    margin-bottom: 32px;
+  }
+  #fhm-dimensions .dimensions-list {
+    -moz-column-gap: 8px;
+         column-gap: 8px;
+    row-gap: 8px;
+    margin: 0;
+  }
+  #fhm-dimensions .dimensions-list a {
+    font-size: 14px;
+    line-height: 1.4;
+    padding: 8px 7.67px;
+  }
+  #fhm-category {
+    margin-bottom: 96px;
+  }
+  #fhm-category .category-main .category-item .category-item-action h4 {
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+  #fhm-category .category-main .category-center .category-item .category-item-action h4 {
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+  #fhm-popularProducts {
+    margin-bottom: 48px;
+  }
+  #fhm-popularProducts .popularProducts-banner {
+    margin-bottom: 40px;
+  }
+  #fhm-popularProducts .popularProducts-banner img {
+    aspect-ratio: 390/171;
+  }
+  #fhm-popularProducts .popularProducts-banner .popularProducts-info {
+    position: static;
+    margin-bottom: 40px;
+  }
+  #fhm-popularProducts .popularProducts-container {
+    position: static;
+  }
+  #fhm-popularProducts .popularProducts-grid {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 40px;
+  }
+  #fhm-popularProducts .popularProducts-grid .product {
+    padding: 0;
+    border-radius: 0;
+  }
+  #fhm-featured {
+    margin-bottom: 48px;
+    padding: 48px 0;
+  }
+  #fhm-featured .featured-main {
+    grid-template-columns: repeat(2, 1fr);
+    -moz-column-gap: 16px;
+         column-gap: 16px;
+    row-gap: 32px;
+  }
+  #fhm-featured .featured-item .featured-item-icon {
+    padding: 0;
+  }
+  #fhm-featured .featured-item .featured-item-icon img {
+    max-width: 80%;
+    max-height: 70%;
+  }
+  #fhm-testimonials {
+    margin-bottom: 48px;
+  }
+  #fhm-testimonials .testimonials-slider .testimonials-item {
+    padding: 24px;
+  }
+  #fhm-partner {
+    margin-bottom: 20px;
+  }
+  #fhm-partner .partner-container {
+    padding-top: 48px;
+  }
+  #fhm-promotion {
+    padding: 48px 0;
+  }
+  #fhm-promotion .promotion-container {
+    gap: 24px;
+  }
+  #fhm-promotion .promotion-container .promotion-item {
+    width: 100%;
+  }
+  #fhm-promotion .promotion-container .promotion-item:first-child .promotion-item-content {
+    max-width: 279px;
+  }
+  #fhm-promotion .promotion-container .promotion-item.promotion-item-center {
+    aspect-ratio: 350/225;
+  }
+  #fhm-promotion .promotion-container .promotion-item.promotion-item-center .promotion-item-content {
+    padding: 40px 55px;
+  }
+  #fhm-promotion .promotion-container .promotion-item:last-child {
+    aspect-ratio: 350/254;
+  }
+  #fhm-news .news-container {
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
