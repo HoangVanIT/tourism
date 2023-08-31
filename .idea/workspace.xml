@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a6a96f6b-fbd9-48bf-9806-40ee8a64f1ea" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/assets/images/banner/banner-blog-single.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/banner/blog-banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/banner/category1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/banner/category2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/banner/category3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/banner/category4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/banner/category5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/banner/cover-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/banner/cover-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/banner/guild.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/banner/list-product-banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/banner/saleup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/category/cate-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/category/cate-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/category/cate-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/category/cate-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/icon/checked.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/icon/checked.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/icon/icon 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/icon/icon 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/icon/icon 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/icon/icon 4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/icon/user 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/icon/user 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/icon/user 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/icon/wishlist.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/icon/wishlistSolid.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/imageproduct/product1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/imageproduct/product10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/imageproduct/product11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/imageproduct/product12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/imageproduct/product2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/imageproduct/product3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/imageproduct/product4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/imageproduct/product5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/imageproduct/product6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/imageproduct/product7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/imageproduct/product8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/imageproduct/product9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/letter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/menu/car.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/menu/product1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/menu/product10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/menu/product11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/menu/product12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/menu/product13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/menu/product2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/menu/product3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/menu/product4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/menu/product5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/menu/product6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/menu/product7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/menu/product8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/menu/product9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/news/hotnews-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/news/hotnews-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/news/hotnews-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/news/hotnews-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/news/hotnews-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/news/hotnews-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/news/hotnews-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/news/hotnews-8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/news/hotnews-9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/news/later-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/news/list-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/news/list-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/news/list-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/news/new-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/news/news-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/news/news-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/news/related-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/news/related-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/news/related-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/news/related-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/news/related-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/news/related-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/news/user-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/news/user-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/news/user-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/payment-product/product-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/payment-product/product-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/popup-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/popup-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/productDetail/Isolation Mode.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/productDetail/feature1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/productDetail/feature2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/productDetail/warranty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/promotion/promotion-center.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/promotion/promotion-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/promotion/promotion-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/slider/slide.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/list-product.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/list-product.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/list.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/list.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2Ub9xo0V4GDU5KdgkoYSKgqfuOe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/FHM/lanine&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a6a96f6b-fbd9-48bf-9806-40ee8a64f1ea" name="Changes" comment="" />
+      <created>1693197661603</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693197661603</updated>
+      <workItem from="1693197662654" duration="667000" />
+      <workItem from="1693198803771" duration="949000" />
+      <workItem from="1693205299799" duration="12688000" />
+      <workItem from="1693273829781" duration="19703000" />
+      <workItem from="1693338239650" duration="3812000" />
+      <workItem from="1693358563539" duration="1057000" />
+      <workItem from="1693380512930" duration="1614000" />
+      <workItem from="1693385901967" duration="617000" />
+      <workItem from="1693386614179" duration="10000" />
+      <workItem from="1693386625223" duration="1197000" />
+      <workItem from="1693444227013" duration="9729000" />
+      <workItem from="1693468494684" duration="7485000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

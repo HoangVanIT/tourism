@@ -15,7 +15,7 @@
 }
 
 .page-navigation .pagination {
-    justify-content: end;
+    justify-content: center;
 }
 
 .page-navigation .page-item {
@@ -56,6 +56,12 @@
 .page-navigation {
    margin-top: 70px;
     margin-bottom: 133px;
+}
+
+#fhm-list-product-products .tour-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px 20px;
 }
 
 @media only screen and (max-width: 576px) {

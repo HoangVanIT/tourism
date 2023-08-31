@@ -978,6 +978,16 @@ textarea {
     gap: 33px;
 }
 
+.tour-list .tour-item .tour-item__info .check-room{
+    color: #F96706;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 166.667% */
+    text-decoration-line: underline;
+    margin-top: 9px;
+}
+
 .news-list, .blog-news {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -1032,7 +1042,7 @@ textarea {
     margin-bottom: 10px;
 }
 
-.title-tour h3 {
+.title-tour h3, .title-tour h2 {
     font-size: 30px;
     font-weight: 700;
     line-height: normal;
