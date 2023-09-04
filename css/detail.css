@@ -473,6 +473,34 @@
 
 }
 
+.box-hotline{
+    display: flex;
+    justify-content: center;
+    margin-top: 53px;
+    border-bottom: 1px solid #DEE2E6;
+    padding-bottom: 30px;
+}
+
+.box-hotline .box-hotline__line{
+    width: 1px;
+    height: 54px;
+    background: #DEE2E6;
+    margin-left: 21px;
+    margin-right: 32px;
+}
+
+.box-hotline span{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.box-hotline__contact, .box-hotline__number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 @media only screen and (max-width: 576px) {
     .-type-2 {
         margin-top: 10px;
