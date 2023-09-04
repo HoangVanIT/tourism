@@ -609,3 +609,139 @@
         width: 100%;
     }
 }
+
+/*VanHT*/
+.booking-form{
+    margin-bottom: 72px;
+}
+
+.booking-form select, .booking-form select option, .booking-form .quantity-room input:valid, .booking-form .quantity-room button, input[type="date"], input::placeholder, .booking-form .check-in input, .booking-form .check-out input
+{
+    color: #606060;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.booking-form select option
+{
+    color: #606060;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.booking-form .location{
+   padding-left: 16px;
+    padding-right: 16px;
+    max-width: 290px;
+}
+
+.booking-form .check-in{
+    width: 234px;
+}
+
+.booking-form .check-out{
+    width: 222px;
+}
+
+.booking-form .check-in, .booking-form .check-out{
+    padding-left: 27px;
+    padding-right: 27px;
+}
+
+.booking-form select, .booking-form input{
+    border: none;
+}
+
+.booking-form select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.booking-form .location, .booking-form .check-in, .booking-form .check-out, .booking-form .quantity-room{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.booking-form label{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 8px;
+}
+
+.booking-form input:focus, .booking-form select:focus{
+    outline: none;
+}
+
+.booking-form form{
+    border: 1px solid #EDEDED;
+    border-radius: 3px;
+}
+
+.booking-form .location, .booking-form .check-in, .booking-form .check-out{
+    border-right: 1px solid #EDEDED;
+}
+
+.booking-form .quantity-room{
+    padding: 0 59px;
+}
+
+.booking-form .form-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.booking-form .quantity-room input{
+    width: 25px;
+    text-align: center;
+}
+
+.booking-form .quantity-room button{
+    background: none;
+    width: 25px;
+    height: 15px;
+    padding: 3px 9px;
+    gap: 10px;
+    border-radius: 2px;
+    border: 0.5px solid #EDEDED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.booking-form .btn-booking button{
+    background: #F96706;
+    border: none;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 0 51px;
+    max-width: 196px;
+    border-radius: 0 3px 3px 0;
+}
+
+.booking-form .btn-booking{
+    background: #F96706;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 0 3px 3px 0;
+    width: 196px;
+    max-width: 196px;
+}
+
+#fhm-list-product-products [class="g-0 col-lg-9 col-md-9 col-12"]{
+    padding-right: 15px;
+}
+
+

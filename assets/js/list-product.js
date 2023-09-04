@@ -1,41 +1,3 @@
-// Range slider
-const filterRangeSlider = document.querySelector(
-  "#fhm-list-product-products .products-filter-item .products-filter-item-range-slider"
-);
-
-const filterRangeSliderInputMin = document.querySelector(
-  "#fhm-list-product-products .products-filter-item .products-filter-item-range-slider-input .min"
-);
-const filterRangeSliderInputMax = document.querySelector(
-  "#fhm-list-product-products .products-filter-item .products-filter-item-range-slider-input .max"
-);
-
-rangeSlider(filterRangeSlider, {
-  // min value
-  min: 0,
-  // max value
-  max: 100,
-  // step size
-  step: 1,
-  // set input value
-  value: [0, 100],
-  onInput: function (valueSet) {
-    filterRangeSliderInputMin.value = valueSet[0];
-    filterRangeSliderInputMax.value = valueSet[1];
-  },
-});
-
-// Change range slider input value
-const changeValue = () => {
-  rangeSlider(filterRangeSlider).value([
-    filterRangeSliderInputMin.value,
-    filterRangeSliderInputMax.value,
-  ]);
-};
-
-// Set default value input
-filterRangeSliderInputMin.value = 0;
-filterRangeSliderInputMax.value = 100;
 
 // Render color
 const colorCheckboxs = document.querySelectorAll(
@@ -67,4 +29,39 @@ openFilterButton.addEventListener("click", () => {
 
 closeFilterButton.addEventListener("click", () => {
   productFilterList.classList.remove("active");
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+  var guestAmount = document.getElementById('quantity-room');
+  var cntUpButton = document.getElementById('cnt-up');
+  var cntDownButton = document.getElementById('cnt-down');
+  var buttons = document.querySelectorAll('.btn');
+  var diamond = document.querySelector('.diamond');
+  var form = document.querySelector('form');
+  var linkbox = document.querySelector('.linkbox');
+
+  cntUpButton.addEventListener('click', function() {
+    var quantityRoom = parseInt(document.getElementById('quantity-room').value);
+    guestAmount.value = Math.min(quantityRoom + 1, 1000);
+  });
+
+  cntDownButton.addEventListener('click', function() {
+    var quantityRoom = parseInt(document.getElementById('quantity-room').value);
+    guestAmount.value = Math.max(quantityRoom - 1, 1);
+  });
+
+  buttons.forEach(function(button) {
+    button.addEventListener('click', function() {
+      button.classList.toggle('booked');
+      diamond.classList.toggle('windup');
+      form.style.display = form.style.display === 'none' ? 'block' : 'none';
+      linkbox.style.display = linkbox.style.display === 'none' ? 'block' : 'none';
+
+      if (button.textContent === "Search") {
+        button.textContent = "Search again";
+      } else {
+        button.textContent = "Search";
+      }
+    });
+  });
 });
