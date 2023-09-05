@@ -517,14 +517,17 @@
 }
 
 .main-detail__review  .box-rating{
-    display: flex;
-    gap: 40px;
-    height: 188px;
     border-radius: 10px;
     border: 1px solid #E3E3E3;
     background: #FFF;
     padding: 20px;
+    /*height: 188px;*/
+}
 
+.main-detail__review  .box-rating .box-rating__group{
+    display: flex;
+    gap: 40px;
+    height: 100%;
 }
 .chart {
     /* width: 500px; */
@@ -631,6 +634,144 @@
 
 .total-reviews {
     font-size: 25px !important;
+}
+
+.box-comment{
+    border-radius: 8px;
+    border: 1px solid #E3E3E3;
+    background: #FFF;
+    padding: 20px 20px 40px;
+}
+
+.box-comment .box-comment__search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.box-comment .box-comment__search .-item-title{
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.box-comment .box-comment__search .search-btn{
+    position: absolute;
+    top: 3px;
+    left: 12px;
+    height: 100%;
+}
+
+.box-comment .box-comment__search .search-btn button{
+    border: none;
+    background: none;
+}
+
+.box-comment .box-comment__search input::placeholder{
+    padding-left: 50px;
+    color: #969595;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal
+}
+
+.box-comment .box-comment__search input{
+    border: none;
+    border-radius: 4px;
+    background: #F2F2F2;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.box-comment .box-comment__textarea textarea::placeholder, .box-comment .box-comment__insert input::placeholder{
+    color: #5F5F5F;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.box-comment .box-comment__insert{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 10px;
+    gap: 15px;
+    margin-top: 11px;
+}
+
+.box-comment .box-comment__insert input.form-control{
+    border: none;
+}
+
+.box-comment__insert .-item-avatar, .box-comment__insert .-item-name, .box-comment__insert .-item-email{
+    border-radius: 3px;
+    border: 1px solid #EDEDED;
+    height: 32px;
+}
+
+.box-comment__insert .-item-avatar{
+    width: 70px;
+    text-align: center;
+}
+
+.box-comment .box-comment__insert .-item-avatar .upload, .box-comment .box-comment__insert input{
+    height: 100%;
+}
+
+.box-comment__insert .-item-btn, .box-rating .-item-btn{
+    display: flex;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #F96706;
+}
+
+.box-comment__insert .-item-btn{
+    width: 80px;
+}
+.box-rating .-item-btn{
+    width: 150px;
+}
+
+.box-rating .box-rating__btn{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.box-comment__insert .-item-btn button.btn-submit, .box-rating .-item-btn button.btn-submit{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+    background: #F96706;
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-comment .upload label{
+    cursor: pointer;
+}
+
+.box-comment .upload input{
+    display: none;
+}
+
+.box-comment .upload span img {
+    transition: transform .4s;
+}
+
+.box-comment .upload span img:hover {
+   transform: scale(1.3);
 }
 
 

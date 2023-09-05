@@ -88,7 +88,7 @@ function setupRating() {
     const two = document.querySelector(".two");
     const totalReviews = document.querySelector(".total-reviews");
     const reviews = {
-        5: 90,
+        5: 100,
         4: 60,
         3: 30,
         2: 20,
