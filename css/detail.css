@@ -501,6 +501,139 @@
     flex-direction: column;
 }
 
+.main-detail__review .tour-info__item{
+    margin-bottom: 25px;
+}
+
+.main-detail__review .box-rating .line{
+    width: 1px;
+    height: 110px;
+    background-color: #F2F2F2;
+}
+
+.main-detail__review span{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.main-detail__review  .box-rating{
+    display: flex;
+    gap: 40px;
+    height: 188px;
+    border-radius: 10px;
+    border: 1px solid #E3E3E3;
+    background: #FFF;
+    padding: 20px;
+
+}
+.chart {
+    /* width: 500px; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+}
+
+.chart .rate-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    height: 30px;
+    padding: 10px;
+}
+.chart .rate-box > * {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    color: #444;
+}
+.rate-box .value {
+    display: flex;
+    align-items: center;
+}
+.rate-box .value:hover {
+    color: #F96706;
+}
+.chart .value {
+    cursor: pointer;
+}
+.rate-box .progress-bar {
+    border-width: 1px;
+    position: relative;
+    background-color: #cfd8dc91;
+    height: 10px;
+    border-radius: 100px;
+    width: 248px;
+}
+.rate-box .progress-bar .progress {
+    position: absolute;
+    left: 0;
+    background-color: #F96706;
+    height: 100%;
+    border-radius: 100px;
+    transition: 300ms ease-in-out;
+}
+
+.global {
+    height: 100%;
+    padding-left: 70px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.one .fas {
+    color: #cfd8dc;
+}
+
+.two {
+    background: linear-gradient(to right, #F96706 0%, transparent 0%);
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+    transition: 0.5s ease-in-out all;
+}
+
+.global .global-value {
+    color: #F96706;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.global span.total-reviews{
+    font-size: 14px!important;
+    color: #F96706;
+}
+
+.rating-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 10%;
+}
+.rating-icons span {
+    position: absolute;
+    display: flex;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 5px;
+}
+
+.rating-icons span .fas{
+    margin-right: 5px;
+    height: 15px;
+    width: 15px;
+}
+
+.total-reviews {
+    font-size: 25px !important;
+}
+
+
 @media only screen and (max-width: 576px) {
     .-type-2 {
         margin-top: 10px;

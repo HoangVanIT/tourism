@@ -81,6 +81,90 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+//rate
+function setupRating() {
+    const rateBoxes = document.querySelectorAll(".rate-box");
+    const globalValue = document.querySelector(".global-value");
+    const two = document.querySelector(".two");
+    const totalReviews = document.querySelector(".total-reviews");
+    const reviews = {
+        5: 90,
+        4: 60,
+        3: 30,
+        2: 20,
+        1: 0,
+    };
+
+    function updateValues() {
+        rateBoxes.forEach((box) => {
+            const valueBox = box.querySelector(".value");
+            const countBox = box.querySelector(".count");
+            const progress = box.querySelector(".progress");
+
+            const value = parseFloat(valueBox.textContent);
+            const totalVotes = getTotal(reviews);
+
+            if (totalVotes === 0) {
+                countBox.textContent = "0%";
+                progress.style.width = "0%";
+            } else {
+                const percentage = Math.round((reviews[value] / totalVotes) * 100);
+                countBox.textContent = `${percentage}%`;
+                progress.style.width = `${percentage}%`;
+            }
+        });
+
+        totalReviews.textContent = `${getTotal(reviews)} Đánh giá`;
+
+        finalRating();
+    }
+
+    function getTotal(reviews) {
+        return Object.values(reviews).reduce((a, b) => a + b);
+    }
+
+    document.querySelectorAll(".value").forEach((element) => {
+        element.addEventListener("click", () => {
+            const target = element.textContent;
+            reviews[target] += 1;
+            updateValues();
+        });
+    });
+
+    function finalRating() {
+        const final = Object.entries(reviews)
+            .map(([key, value]) => key * value)
+            .reduce((a, b) => a + b);
+
+        const ratingValue = nFormat((final / getTotal(reviews)).toFixed(1));
+        globalValue.textContent = ratingValue;
+        two.style.background = `linear-gradient(to right, #F96706 ${
+            (ratingValue / 5) * 100
+        }%, transparent 0%)`;
+    }
+
+    function nFormat(number) {
+        if (number >= 1000 && number < 1000000) {
+            return `${(number / 1000).toFixed(1)}k`;
+        } else if (number >= 1000000 && number < 1000000000) {
+            return `${(number / 1000000).toFixed(1)}m`;
+        } else if (number >= 1000000000) {
+            return `${(number / 1000000000).toFixed(1)}md`;
+        } else if (isNaN(number)) {
+            return `0.0`;
+        } else {
+            return number;
+        }
+    }
+
+    // Initialize the ratings
+    updateValues();
+}
+
+// Call the setupRating function to set up the rating system
+setupRating();
+
+
 // document.addEventListener("DOMContentLoaded", function() {
 //     const sidebar = document.querySelector(".box.booking-ticket");
 //     let isFixed = false;
