@@ -9,6 +9,23 @@
     margin-bottom: 50px;
 }
 
+#fhm-why-choose .title-tour{
+    position: absolute;
+    top: 93px;
+    width: 100%;
+}
+
+#fhm-why-choose .title-tour h3{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+#fhm-why-choose .title-tour .title-description p{
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
 
 #fhm-about-us h3{
     margin-bottom: 40px;
@@ -39,7 +56,7 @@
 
 #fhm-why-choose .lannie-main{
     position: relative;
-    top: -160px;
+    top: -130px;
 }
 
 #fhm-why-choose .lannie-item-icon{
