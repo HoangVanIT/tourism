@@ -9,6 +9,10 @@
     margin-bottom: 50px;
 }
 
+#fhm-why-choose .bg-why-chose img{
+    max-height: 412px;
+}
+
 #fhm-why-choose .title-tour{
     position: absolute;
     top: 93px;
@@ -19,12 +23,14 @@
     width: 100%;
     text-align: center;
     color: #fff;
+    text-transform: unset;
 }
 
 #fhm-why-choose .title-tour .title-description p{
     color: #fff;
     width: 100%;
     text-align: center;
+    line-height: 23px;
 }
 
 #fhm-about-us h3{
