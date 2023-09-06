@@ -1,0 +1,39 @@
+#fhm-progress-bar {
+    margin-top: 77px;
+}
+#fhm-progress-bar h2 {
+font-size: 32px;
+font-weight: 700;
+line-height: 150%; 
+margin-bottom: 45px;
+}
+#fhm-progress-bar .step-bar-booking .step-book .step-inside svg,
+#fhm-progress-bar .step-bar-booking .step-book .step-inside span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#fhm-progress-bar .step-bar-booking .step-book svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #FFF;
+    z-index: 9;
+}
+#fhm-progress-bar .step-bar-booking .step-book .step-inside span{
+    color: #FFF;
+    font-size: 10px;
+    font-weight: 800;
+    line-height: 150%; 
+    z-index: 9999;
+}
+#fhm-progress-bar .step-bar-booking .step-bar {
+    width: calc(100% - 83%);    
+    border: 1px solid #F68D47;
+}
+#fhm-progress-bar .step-bar-booking .step-bar-later {
+    width: calc(100% - 83%);
+    border: 1px solid #D5D5D5;
+}
