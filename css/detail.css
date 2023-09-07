@@ -883,6 +883,10 @@
         display: none;
     }
 
+    .social-dropdown {
+        left: 50%;
+    }
+
     .right-content {
         padding-left: 15px;
     }
