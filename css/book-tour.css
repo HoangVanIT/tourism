@@ -121,6 +121,11 @@
   font-weight: 700;
   text-transform: uppercase;
 }
+.main-booking-tour .right-content .box-book-tour-info .item-total-amount span {
+    color: #F00;
+    font-size: 18px;
+    font-weight: 600;
+}
 .main-booking-tour .right-content .button-pay {
   display: flex;
   padding: 20px 49px 20px 50px;
