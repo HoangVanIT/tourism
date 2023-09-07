@@ -157,12 +157,10 @@ function setupRating() {
         }
     }
 
-    // Initialize the ratings
     updateValues();
 }
-
-// Call the setupRating function to set up the rating system
 setupRating();
+
 
 
 // document.addEventListener("DOMContentLoaded", function() {
