@@ -516,6 +516,32 @@
     }
 }
 
+@media only screen and (max-width: 1023px) {
+    .booking-form form {
+        flex-direction: column;
+    }
+
+    .booking-form .location, .booking-form .check-in, .booking-form .check-out, .booking-form .btn-booking {
+        border-right: none!important;
+        border-bottom: 1px solid #EDEDED;
+        width: 100%!important;
+        max-width: 100% !important;
+    }
+
+    .booking-form .quantity-room {
+        padding: 20px!important;
+    }
+
+    .booking-form .btn-booking{
+        border-radius: 0!important;
+    }
+
+    .booking-form .btn-booking button{
+        padding: 10px!important;
+    }
+
+}
+
 @media (max-width: 991px) {
     #fhm-list-product-products .heading,
     #fhm-list-product-products .products-list {
@@ -541,6 +567,13 @@
 @media (max-width: 767px) {
     #fhm-list-product-products .products-filter-toggle-button {
         display: block;
+        color: #fff;
+        background: #F96706;
+        width: 20%;
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        margin-left: -12px;
     }
 
     #fhm-list-product-products .products-filter-list {
@@ -582,6 +615,7 @@
         border-radius: 3px;
         background-color: #F96706;
         font-weight: 700;
+        color: #fff;
     }
 
     #fhm-list-product-products .products-filter-list .products-filter-item {

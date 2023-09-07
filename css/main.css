@@ -2504,6 +2504,9 @@ textarea {
 }
 
 @media only screen and (max-width: 576px) {
+    .title-description p {
+        line-height: 28px;
+    }
     #fhm-header .header-contact{
         display: none;
     }
