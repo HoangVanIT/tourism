@@ -102,8 +102,18 @@
 
     #fhm-why-choose .lannie-main {
         position: relative;
-        top: -80px;
-        margin-bottom: 80px;
+        top: 20px;
+        margin-bottom: 180px;
+    }
+
+    #fhm-why-choose .title-tour {
+        position: absolute;
+        top: 40px;
+        width: 100%;
+    }
+
+    #fhm-why-choose .title-description{
+        display: none;
     }
 
     #fhm-about-us h3 {
