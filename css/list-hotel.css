@@ -4,6 +4,12 @@
     z-index: 1;
 }
 
+#fhm-list-product-products .tour-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px 20px;
+}
+
 #fhm-list-product-products .heading {
     font-size: 30px;
     line-height: 52px;
@@ -589,6 +595,12 @@
 }
 
 @media (max-width: 576px) {
+    #fhm-list-product-products .tour-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
     #fhm-list-product-products .products-list-sort {
         row-gap: 20px;
     }

@@ -58,12 +58,6 @@
     margin-bottom: 133px;
 }
 
-#fhm-list-product-products .tour-list {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 60px 20px;
-}
-
 @media only screen and (max-width: 576px) {
     #fhm-news-list .container{
         padding: 0;
