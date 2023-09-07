@@ -38,7 +38,7 @@
   border: 1px solid #d5d5d5;
 }
 .main-booking-tour {
-  /* margin-top: 65px; */
+  margin-bottom: 150px;
 }
 .main-booking-tour .customer-info .customer-info-left {
   width: 55%;
@@ -77,7 +77,76 @@
   border: 1px solid #e3e3e3;
   background: #fff;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+  padding: 30px 33px 39px 33px;
 }
 .main-booking-tour .right-content {
   margin-top: 65px;
+}
+.main-booking-tour .right-content h3 {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.main-booking-tour .right-content .box-img img {
+  object-fit: cover;
+  margin-top: 24px;
+}
+.main-booking-tour .right-content .box-book-tour-info {
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+.main-booking-tour .right-content .box-book-tour-info .item-book-tour-info {
+  border-bottom: 1px solid #ededed;
+  padding: 9px 0px 7px 0px;
+}
+.main-booking-tour .right-content .item-book-tour-info .item-object {
+  font-size: 16px;
+  font-weight: 600;
+}
+.main-booking-tour .right-content .item-book-tour-info span {
+  font-size: 16px;
+  font-weight: 400;
+}
+.main-booking-tour .right-content .box-book-tour-info .item-total-amount {
+  padding-top: 12px;
+}
+.main-booking-tour
+  .right-content
+  .box-book-tour-info
+  .item-total-amount
+  .total-amount {
+  color: #f00;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.main-booking-tour .right-content .button-pay {
+  display: flex;
+  padding: 20px 49px 20px 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  background: #f96706;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: none;
+  margin-bottom: 12px;
+}
+.main-booking-tour .right-content .button-book-another-tour {
+  display: flex;
+  padding: 20px 49px 20px 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  border: 1px solid #f96706;
+  color: #f96706;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  background: #fff;
 }
