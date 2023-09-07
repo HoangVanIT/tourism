@@ -1,0 +1,11 @@
+.design-tour .detail-top__title h2   {
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+}
+.design-tour .detail-top__title span {
+  color: #606060;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
