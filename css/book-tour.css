@@ -166,6 +166,11 @@
   text-transform: uppercase;
   background: #fff;
 }
+.form-check-input:checked {
+  background: url(../assets/images/icon/check-radio.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 @media (min-width: 992px) {
   #fhm-progress-bar .step-bar-booking .step-bar {
     width: calc(100% - 83%);
