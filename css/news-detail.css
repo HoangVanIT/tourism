@@ -47,13 +47,14 @@
   border-top: 1px solid #969595;
   background: #fff;
   padding: 40px 0px;
+  cursor: pointer;
 }
 .main-news-detail .main-news-detail-right-content img {
   width: 100%;
   object-fit: contain;
   margin-bottom: 12px;
 }
-.main-news-detail .main-news-detail-right-content span {
+.main-news-detail .main-news-detail-right-content a {
   color: var(--den, #000);
   font-size: 20px;
   font-style: normal;
