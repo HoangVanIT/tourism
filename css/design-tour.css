@@ -1,11 +1,111 @@
-.design-tour .detail-top__title h2   {
-    color: #000;
-    font-size: 30px;
-    font-weight: 700;
+.design-tour .detail-top__title h2 {
+  color: #000;
+  font-size: 30px;
+  font-weight: 700;
 }
 .design-tour .detail-top__title span {
   color: #606060;
   text-align: center;
   font-size: 16px;
   font-weight: 400;
+}
+.design-tour-detail {
+  margin-top: 65px;
+}
+.design-tour-detail .left-content {
+  max-height: 490px;
+}
+.design-tour-detail .main-detail {
+  height: 100%;
+}
+.design-tour-detail .main-detail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.design-tour-detail .right-content .booking-ticket {
+  max-width: none;
+  margin-top: 0px;
+}
+.design-tour-detail .right-content .booking-ticket .content {
+  padding: 30px 10px;
+}
+.design-tour-detail
+  .right-content
+  .booking-ticket
+  .content
+  .group-input
+  .form-group {
+  width: 100%;
+}
+.design-tour-detail .right-content .booking-ticket .form-group textarea {
+  width: 100%;
+}
+.design-tour-detail .right-content form .form-select:focus {
+  box-shadow: none;
+  border: 1px solid #7a7a7a;
+}
+.design-tour-detail .right-content .booking-ticket .select-top {
+  width: 48%;
+}
+.form-group input,
+.design-tour-detail .right-content .booking-ticket .form-select,
+.design-tour-detail .right-content .booking-ticket .form-group textarea {
+  padding: 15px 10px 15px 20px;
+  font-size: 14px;
+  font-weight: 300;
+}
+.design-tour-detail .right-content .select-top .form-select {
+  font-weight: 500;
+}
+.design-tour-detail .right-content .booking-ticket .form-group .form-select {
+  padding: 15px 10px 15px 20px;
+}
+.design-tour-detail .right-content form .contact-form .radio-contact{
+  gap: 12px;
+}
+.design-tour-detail .right-content form .contact-form label {
+  white-space: nowrap;
+}
+.design-tour-detail .right-content form .contact-form .form-check label {
+  font-size: 14px;
+}
+.design-tour-detail .right-content form .contact-form .contact-form-title,
+.design-tour-detail .right-content form .group-select .title {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.design-tour-detail .right-content form .jt_tour {
+  width: 100%;
+}
+.design-tour-detail .right-content form button {
+  text-transform: none;
+}
+.design-tour-detail .right-content form .title-note {
+  text-align: right;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 25px;
+}
+@media (min-width: 992px) {
+  .design-tour-detail .left-content {
+    padding-left: 55px;
+  }
+  .design-tour-detail .right-content .booking-ticket .select-top {
+    width: 48%;
+  }
+  .design-tour-detail
+    .right-content
+    .booking-ticket
+    .content
+    .group-input
+    .form-group {
+    width: 48%;
+  }
+  .design-tour-detail .right-content .booking-ticket .content {
+    padding: 47px 47px 50px 47px;
+  }
 }
