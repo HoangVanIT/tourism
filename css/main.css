@@ -1651,6 +1651,47 @@ textarea {
     font-size: 25px;
 }
 
+#fhm-error{
+    margin-top: 155px;
+    margin-bottom: 360px;
+}
+
+#fhm-error img{
+    max-height: 263px;
+    object-fit: contain;
+    margin-bottom: 64px;
+}
+
+#fhm-error h2{
+    color: #969595;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+
+#fhm-error button{
+    border: none;
+    display: flex;
+    width: 100%;
+    max-width: 382px;
+    padding: 15px 0;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    color: #FFF;
+    border-radius: 500px;
+    background: #ED1C24;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
 #fhm-newsletter{
     margin-top: 105px;
     color: #fff;
@@ -2587,6 +2628,11 @@ textarea {
 }
 
 @media only screen and (max-width: 480px) {
+
+    #fhm-error h2{
+        font-size: 22px;
+    }
+
     .title-shape {
         margin-bottom: 32px;
     }
