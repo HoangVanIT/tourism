@@ -58,7 +58,7 @@
   width: 100%;
 }
 .main-booking-tour .customer-info .customer-info-right {
-  width: 100%
+  width: 100%;
 }
 .main-booking-tour .customer-info span {
   font-size: 16px;
@@ -166,6 +166,67 @@
   text-transform: uppercase;
   background: #fff;
 }
+.form-check-input:checked {
+  background: url(../assets/images/icon/check-radio.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main-booking-confirm .custom-table {
+  margin-top: 20px;
+}
+.main-booking-confirm .custom-table tbody tr {
+  border: 1px solid #dee2e6;
+}
+.main-booking-confirm .custom-table tbody tr .title {
+  font-size: 16px;
+  font-weight: 500;
+  width: 40%;
+}
+.main-booking-confirm .custom-table tbody tr td {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 15px 15px 15px 29px;
+}
+.main-booking-confirm .custom-table tbody tr:nth-child(even) td {
+  background: #f9f9f9;
+}
+.main-booking-confirm .booking-code {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+}
+.main-booking-confirm .table-booking-confirm {
+  margin-top: 40px;
+}
+.main-booking-confirm .table-booking-confirm h4 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.main-booking-confirm {
+  margin-top: 120px;
+}
+.main-booking-confirm .right-content {
+  border-radius: 10px;
+  border: 1px solid #e3e3e3;
+  background: #fff;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+  padding: 30px 30px 43px 36px;
+  width: 100%;
+  max-height: 200px;
+  margin-top: 50px;
+}
+.main-booking-confirm .right-content h3 {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 23px;
+}
+.main-booking-confirm .right-content .content-summary-booking p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  margin-bottom: 20px;
+}
 @media (min-width: 992px) {
   #fhm-progress-bar .step-bar-booking .step-bar {
     width: calc(100% - 83%);
@@ -180,12 +241,18 @@
     width: 55%;
     padding: 0px 35px;
     border-right: 1px solid #e1e1e1;
-}
-.main-booking-tour .customer-info .customer-info-right {
-  width: 45%;
-  padding: 0px 35px;
-}
-.main-booking-tour .right-content {
-  width: 40%;
-}
+  }
+  .main-booking-tour .customer-info .customer-info-right {
+    width: 45%;
+    padding: 0px 35px;
+  }
+  .main-booking-tour .right-content {
+    width: 40%;
+  }
+  .main-booking-confirm .right-content {
+    width: 38.5%;
+  }
+  .main-booking-confirm .right-content {
+    margin-top: 50px;
+  }
 }

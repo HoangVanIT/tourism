@@ -22,7 +22,7 @@
 
     <script src="./bootstrap//js/bootstrap.min.js"></script>
 
-    <title>Booking comfirm</title>
+    <title>Booking confirm</title>
 </head>
 <body>
 <!-- START HEADER-->
@@ -641,44 +641,85 @@
     <!-- END PROGRESS BAR -->
 
     <!-- START MAIN DETAIL -->
-    <section id="fhm-main-detail" class="main-booking-tour">
+    <section id="fhm-main-detail" class="main-booking-confirm">
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-lg-7">
                     <div class="main-detail">
-                        <div class="main-detail__content">
-                            <div class="container">
+                        <div class="main-detail__content mt-0">
+                            <div class="">
                                 <div class="navigation-wrapper">
-                                    <div class="navigation-content-wrapper">
+                                    <div class="navigation-content-wrapper mt-0">
                                         <div class="nav-penal schedule" id="tab-2">
-                                            <div class="hotel-info__item tour-info__item">
+                                            <div class="d-flex justify-content-between hotel-info__item tour-info__item mt-0">
                                                 <h3>Cảm ơn bạn đã đặt</h3>
+                                                <div class="booking-code">Mã Booking: JTCB102</div>
                                             </div>
-                                            <div class="container mt-3">
+                                            <div class=" table-booking-confirm">
                                                 <h4>Thông tin khách hàng</h4>
-                                                <table class="table table-striped">
-                                                    <thead>
-                                                    <tr>
-                                                        <th></th>
-                                                        <th></th>
-                                                    </tr>
-                                                    </thead>
+                                                <table class="table custom-table">
                                                     <tbody>
                                                     <tr>
-                                                        <td>Khách hàng</td>
+                                                        <td class="title">Khách hàng</td>
                                                         <td>Chung Hết Bi</td>
                                                     </tr>
                                                     <tr>
-                                                        <td>Email</td>
+                                                        <td class="title">Email</td>
                                                         <td>mary@example.com</td>
                                                     </tr>
                                                     <tr>
-                                                        <td>Điện thoại</td>
-                                                        <td>july@example.com</td>
+                                                        <td class="title">Điện thoại</td>
+                                                        <td>0248 824 283</td>
                                                     </tr>
                                                     <tr>
-                                                        <td>Thông tin bổ sung</td>
+                                                        <td class="title">Thông tin bổ sung</td>
                                                         <td></td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                            <div class=" table-booking-confirm">
+                                                <h4>Thông tin phòng</h4>
+                                                <table class="table custom-table">
+                                                    <tbody>
+                                                    <tr>
+                                                        <td class="title">Loại phòng:</td>
+                                                        <td>Dexlux garden view</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title">Thời gian áp dụng</td>
+                                                        <td>9/6/2023 - 11/12/2023</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title">Ngày đặt</td>
+                                                        <td>5/9/2023</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title">Ngày đi</td>
+                                                        <td>8/9/2023</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title">Điểm đón</td>
+                                                        <td>Khu Đô thị Dương Nội</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title">Số người</td>
+                                                        <td>2 người lớn, 1 trẻ em</td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                            <div class=" table-booking-confirm">
+                                                <h4>Thông tin thanh toán</h4>
+                                                <table class="table custom-table">
+                                                    <tbody>
+                                                    <tr>
+                                                        <td class="title">Phương thức thanh toán</td>
+                                                        <td>Chuyển khoản ngân hàng</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="title">Số Tiền</td>
+                                                        <td>3,940,000đ</td>
                                                     </tr>
                                                     </tbody>
                                                 </table>
@@ -692,30 +733,11 @@
                 </div>
                 <div class="col-lg-5 right-content">
                     <div class="box booking-room-ticket m-0">
-                        <h3 class="text-center">TỔNG QUAN</h3>
-                        <div class="box-img">
-                            <img src="./assets/images/book-tour-1.png" alt="">
+                        <h3 class="text-center">Tóm tắt Booking</h3>
+                        <div class="content-summary-booking">
+                            <p>Chúng tôi đã nhận được yêu cầu của quý khách!</p>
+                            <p> Chúng tôi đã gửi một email xác nhận cho booking này. Xin quý khách vui lòng kiểm tra email. Chân thành cảm ơn</p>
                         </div>
-                        <div class="box-book-tour-info">
-                            <div class="item-book-tour-info d-flex justify-content-between">
-                                <span class="item-object">Người lớn</span>
-                                <span>2 x 1,320,000đ</span>
-                            </div>
-                            <div class="item-book-tour-info d-flex justify-content-between">
-                                <span class="item-object">Trẻ em</span>
-                                <span>1 x 1,320,000đ</span>
-                            </div>
-                            <div class="item-book-tour-info d-flex justify-content-between">
-                                <span class="item-object">Em bé</span>
-                                <span>0</span>
-                            </div>
-                            <div class="item-total-amount d-flex justify-content-between">
-                                <span class="total-amount">Tổng tiền</span>
-                                <span>3,940,000đ</span>
-                            </div>
-                        </div>
-                        <button class="col-12 button-pay">Thanh toán</button>
-                        <button class="col-12 button-book-another-tour">ĐẶt Tour Khác</button>
                     </div>
                 </div>
             </div>
