@@ -14,7 +14,6 @@ $(document).ready(function() {
         $('html, body').animate({
             scrollTop: scrollPoint
         }, 1000, function() {
-            // Trong hàm callback sau khi hoàn thành cuộn, đánh dấu tab là active
             navLinks.closest('li').removeClass('active');
             $(this).parent('li').addClass('active');
         });
@@ -30,24 +29,24 @@ $(document).ready(function() {
 
     function MenuNavigation() {
         if ($(window).width() > 1024) {
-            if (navWrap.length > 0) {
-                var menuPosition = navWrap.offset().top;
-                var windscroll = $(window).scrollTop();
-                var containerWidth = container.outerWidth();
+            var section = $('.main-detail__content'); // Phần chứa menu có class 'main-detail__content'
+            var sectionTop = section.offset().top;
+            var sectionBottom = sectionTop + section.outerHeight();
+            var windowTop = $(window).scrollTop();
+            var containerWidth = container.outerWidth();
 
-                if (windscroll >= menuPosition) {
-                    nav.addClass('fixed-nav').css('width', containerWidth);
-                    navPenals.each(function(i) {
-                        if ($(this).offset().top <= windscroll + 185) {
-                            navLinks.closest('li').removeClass('active');
-                            navLinks.eq(i).closest('li').addClass('active');
-                        }
-                    });
-                } else {
-                    nav.removeClass('fixed-nav').css('width', initialWidth);
-                    navLinks.closest('li').removeClass('active');
-                    navLinks.first().closest('li').addClass('active');
-                }
+            if (windowTop >= sectionTop && windowTop <= sectionBottom) {
+                nav.addClass('fixed-nav').css('width', containerWidth);
+                navPenals.each(function(i) {
+                    if ($(this).offset().top <= windowTop + 185) {
+                        navLinks.closest('li').removeClass('active');
+                        navLinks.eq(i).closest('li').addClass('active');
+                    }
+                });
+            } else {
+                nav.removeClass('fixed-nav').css('width', initialWidth);
+                navLinks.closest('li').removeClass('active');
+                navLinks.first().closest('li').addClass('active');
             }
         }
     }
@@ -64,6 +63,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (scheduleContent.scrollHeight > 1000) {
         showMoreButton.style.display = "block";
+        scheduleContent.classList.add("schedule-content__gradient");
     }
 
     showMoreButton.addEventListener("click", function () {
@@ -71,16 +71,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (!isExpanded) {
             scheduleContent.style.maxHeight = scheduleContent.scrollHeight + "px";
+            scheduleContent.classList.remove("schedule-content__gradient");
             showMoreButton.setAttribute("data-expanded", "true");
             showMoreButton.innerHTML = "Rút gọn";
         } else {
             scheduleContent.style.maxHeight = "1000px";
+            scheduleContent.classList.add("schedule-content__gradient");
             showMoreButton.setAttribute("data-expanded", "false");
             showMoreButton.innerHTML = "Xem thêm";
         }
     });
 });
-
 //rate
 function setupRating() {
     const rateBoxes = document.querySelectorAll(".rate-box");
@@ -163,23 +164,5 @@ setupRating();
 
 
 
-// document.addEventListener("DOMContentLoaded", function() {
-//     const sidebar = document.querySelector(".box.booking-ticket");
-//     let isFixed = false;
-//     const sidebarTop = sidebar.getBoundingClientRect().top;
-//     console.log(sidebarTop);
-//
-//     window.addEventListener("scroll", function() {
-//         const scrollY = window.scrollY;
-//
-//         if (scrollY >= sidebarTop && !isFixed) {
-//             sidebar.classList.add("fixed");
-//             isFixed = true;
-//         } else if (scrollY < sidebarTop && isFixed) {
-//             sidebar.classList.remove("fixed");
-//             isFixed = false;
-//         }
-//     });
-// });
 
 

@@ -369,7 +369,7 @@
     overflow: hidden;
     transition: max-height 1s ease-in-out;
 }
-#schedule-content::before{
+#schedule-content.schedule-content__gradient::before{
     content: " ";
     position: absolute;
     bottom: 0;
@@ -384,26 +384,12 @@
 }
 
 .right-content {
-    position: relative;
     padding-left: 33px;
     height: 100%;
+    position: sticky;
+    top: 50px;
+    z-index: 10;
 }
-
-/*.box {*/
-/*    position: absolute;*/
-/*    top: 0;*/
-/*    left: 0;*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*    transform: translateY(-100%);*/
-/*    transition: transform 0.5s ease-in-out;*/
-/*    z-index: 1;*/
-/*}*/
-/*.box.fixed {*/
-/*    position: fixed;*/
-/*    transform: translateY(0);*/
-/*}*/
-
 
 .right-content .booking-ticket {
     position: relative;
