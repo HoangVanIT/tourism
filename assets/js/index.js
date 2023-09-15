@@ -65,7 +65,7 @@ const swiperComboTour = new Swiper(".combo-tour-slider", {
     },
     1200: {
       slidesPerView: 4,
-      spaceBetween: 33,
+      spaceBetween: 30,
     },
   },
   navigation: {
@@ -181,24 +181,31 @@ checkboxItems.forEach((checkboxItem) => {
 });
 
 const sections = document.querySelectorAll('.section');
-function isElementInViewport(el) {
-  const rect = el.getBoundingClientRect();
-  const windowHeight = window.innerHeight;
-  return rect.top <= windowHeight && rect.bottom >= 0;
-}
-
 function displaySectionsInViewport() {
-  sections.forEach((section) => {
-    if (section && isElementInViewport(section)) {
-      section.style.opacity = '1';
-      section.style.transform = 'translateY(0)';
-      section.style.transition = 'opacity 1s ease-in-out, transform 1s ease-in-out';
-    }
-  });
+  const sections = document.querySelectorAll('.section');
+  let scrolledDown = false;
+  function isElementInViewport(el) {
+    const rect = el.getBoundingClientRect();
+    const windowHeight = window.innerHeight;
+    return rect.top <= windowHeight && rect.bottom >= 0;
+  }
+
+  function checkScrollDirection() {
+    sections.forEach((section, index) => {
+      if (section && (isElementInViewport(section))) {
+        section.style.opacity = '1';
+        section.style.transform = 'translateY(0)';
+        section.style.transition = 'opacity 1s ease-in-out, transform 1s ease-in-out';
+      } else {
+        section.style.opacity = '0';
+        section.style.transform = 'translateY(100px)'; // Adjust this value as needed
+        section.style.transition = 'opacity 1s ease-in-out, transform 1s ease-in-out';
+      }
+    });
+  }
+  checkScrollDirection();
 }
-
 displaySectionsInViewport();
-
 window.addEventListener('scroll', () => {
   displaySectionsInViewport();
 });

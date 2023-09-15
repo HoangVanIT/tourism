@@ -3,6 +3,9 @@
   position: relative;
   overflow: hidden;
 }
+section{
+  overflow-x: hidden;
+}
 
 .animate-h2 {
   opacity: 0;
@@ -222,6 +225,7 @@
 }
 
 #fhm-phuquoc-tour .news-list-item .tour-item__img img{
+  height: 579px;
   max-height: 579px;
 }
 

@@ -809,6 +809,10 @@ textarea {
     transform: scale(1.2);
 }
 
+.tour-item__img img{
+    height: 290px;
+    max-height: 290px;
+}
 /*.tour-item:hover{*/
 /*  padding-bottom: 13px;*/
 /*}*/
@@ -916,6 +920,7 @@ textarea {
     color: #000;
     font-weight: 700;
     line-height: 26px;
+    height: 52px;
     margin-bottom: 6px;
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -2581,10 +2586,16 @@ textarea {
     .tour-list {
         gap: 15px;
     }
-
+    .tour-item__img img{
+        height: 200px;
+    }
     .tour-item .tour-item__info .tour-detail .tour-detail__item {
         flex-wrap: wrap;
         gap: 3px;
+    }
+    .tour-item .tour-item__info .tour-price{
+        display: flex;
+        flex-direction: column;
     }
     .news-list, .blog-news {
         grid-template-columns: repeat(1, 1fr);
